@@ -1,0 +1,24 @@
+# ─── Все поисковики ───
+User-agent: *
+Allow: /
+Disallow: /assets/phoenix-icon.webp
+
+# ─── Google ───
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# ─── Яндекс ───
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+# Запрет турбо-страниц (они ломают дизайн)
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term
+
+# ─── Bing ───
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# ─── Sitemap ───
+Sitemap: https://fenix-slots.ru/sitemap.xml

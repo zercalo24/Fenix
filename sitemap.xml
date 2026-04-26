@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://fenix-slots.ru/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Изображения для Яндекс и Google Image Search -->
+    <image:image>
+      <image:loc>https://fenix-slots.ru/assets/banner.webp</image:loc>
+      <image:title>Fenix Casino — бонус 425%+375ФС, бездеп сундук, BMW X5</image:title>
+      <image:caption>Приветственный бонус Fenix Casino — 425%+375 фриспинов на первые 4 депозита</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://fenix-slots.ru/assets/logo.webp</image:loc>
+      <image:title>Fenix Casino логотип — официальный сайт</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://fenix-slots.ru/assets/slot1.webp</image:loc>
+      <image:title>Mummyland Treasures — игровой автомат в Fenix Casino</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://fenix-slots.ru/assets/slot2.webp</image:loc>
+      <image:title>Ice Bass — слот в Феникс Казино</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://fenix-slots.ru/assets/slot3.webp</image:loc>
+      <image:title>Minotauros — игровой автомат Fenix Casino</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://fenix-slots.ru/assets/slot4.webp</image:loc>
+      <image:title>The Dog House Pragmatic Play — слот Феникс Казино</image:title>
+    </image:image>
+
+  </url>
+</urlset>
