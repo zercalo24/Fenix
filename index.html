@@ -6,11 +6,17 @@
 
 <!-- ═══ PRIMARY SEO ═══ -->
 <title>Fenix Casino — Официальный сайт 🔥 Бонус 425%+375ФС | Бездеп сундук</title>
-<meta name="description" content="Fenix Casino официальный сайт — бонус 425%+375 фриспинов на 4 депозита, бездепозитный сундук при регистрации, кешбек до 30%, розыгрыш BMW X5. Лицензированное казино Феникс — играй онлайн прямо сейчас.">
+<meta name="description" content="Fenix Casino — бонус 425%+375ФС на 4 депозита, бездеп сундук при регистрации, кешбек 30%. Лицензированное казино Феникс — играй онлайн.">
 <meta name="keywords" content="феникс казино, fenix casino, fenix казино, феникс казино официальный сайт, fenix casino официальный сайт, fenix casino зеркало, феникс казино зеркало, fenix casino вход, феникс казино вход, казино феникс регистрация, fenix casino регистрация, fenix casino бонус, феникс бонус, бездепозитный бонус феникс, fenix casino фриспины, бездепозитный сундук казино, fenix casino кешбек, онлайн казино 2026, лучшее казино рф, казино с лицензией, казино с быстрым выводом, игровые автоматы онлайн, слоты онлайн, pragmatic play казино, evolution казино, феникс казино скачать, fenix casino промокод, fenix casino apk, феникс слоты, fenix-slots">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <meta name="author" content="Fenix Casino">
 <link rel="canonical" href="https://fenix-slots.ru/">
+
+<!-- ═══ FAVICON ═══ -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#f96a1b">
 
 <!-- ═══ OPEN GRAPH ═══ -->
 <meta property="og:type" content="website">
@@ -274,6 +280,28 @@ img{display:block;max-width:100%}
   50%{box-shadow:0 6px 38px rgba(249,106,27,.75),0 0 70px rgba(249,106,27,.28)}
 }
 .btn-pulse{animation:glow-pulse 2.5s ease-in-out infinite}
+
+/* H1 в hero — видим для SEO, стилизован под дизайн */
+.hero-h1{
+  font-size:15px;font-weight:700;
+  color:rgba(255,255,255,.85);
+  margin-bottom:10px;
+  letter-spacing:.01em;
+  line-height:1.3;
+  text-shadow:0 1px 4px rgba(0,0,0,.6);
+}
+
+/* Классы вместо inline стилей */
+.sec-h2{padding:0 14px 12px;font-size:18px;font-weight:800;letter-spacing:-.2px}
+.sec-h2-lg{padding:0 14px 14px;font-size:20px;font-weight:800;letter-spacing:-.3px}
+.slot-more{
+  background:var(--bg3);display:flex;align-items:center;justify-content:center;
+  width:140px;min-width:140px;height:140px;
+  border-radius:16px;border:1px solid var(--border2);
+  flex-direction:column;gap:6px;
+}
+.slot-more-ico{font-size:30px}
+.slot-more-txt{font-size:12px;font-weight:700;color:var(--orange);text-align:center;line-height:1.3}
 
 /* ══════════════════════════════
    SECTION LABEL
@@ -586,11 +614,12 @@ img{display:block;max-width:100%}
 </header>
 
 <!-- ─── HERO BANNER — оригинальное изображение ─── -->
-<div class="hero">
+<div class="hero" id="home">
   <img class="hero-img" src="assets/banner.webp"
        alt="Fenix Casino — 425%+375 фриспинов, открой бездеп сундук, BMW X5 и другие призы"
        width="750" height="200" loading="eager">
   <div class="hero-overlay">
+    <h1 class="hero-h1">Fenix Casino — бонус 425%+375ФС</h1>
     <a href="https://fctop.org/dmutiroi7" class="hero-cta-btn btn-pulse">
       🎁 Открыть бездеп сундук
     </a>
@@ -599,7 +628,7 @@ img{display:block;max-width:100%}
 
 <!-- ─── ДЕПОЗИТНАЯ КАРУСЕЛЬ ─── -->
 <p class="sec">Пакет на 4 депозита</p>
-<div class="dep-scroll">
+<div class="dep-scroll" id="deposits">
 
   <a href="https://fctop.org/dmutiroi7" class="dep-card">
     <div class="dep-num">Деп 1</div>
@@ -673,7 +702,7 @@ img{display:block;max-width:100%}
 
 <!-- ─── БОНУСНЫЕ СТРОКИ (точная копия UI оригинала) ─── -->
 <p class="sec">Бонусы</p>
-<div class="bonus-list">
+<div class="bonus-list" id="bonuses">
 
   <a href="https://fctop.org/dmutiroi7" class="brow">
     <div class="brow-l">
@@ -758,7 +787,7 @@ img{display:block;max-width:100%}
 
 <!-- ─── ГОРЯЧИЕ СЛОТЫ — реальные скрины ─── -->
 <p class="sec">Горячие слоты</p>
-<h2 style="padding:0 14px 12px;font-size:18px;font-weight:800;letter-spacing:-.2px">Топ игры прямо сейчас 🔥</h2>
+<h2 class="sec-h2" id="slots">Топ игры прямо сейчас 🔥</h2>
 <div class="slots-scroll">
 
   <a href="https://fctop.org/dmutiroi7" class="slot-card">
@@ -786,9 +815,9 @@ img{display:block;max-width:100%}
   </a>
 
   <!-- Заглушка "ещё 1000+" -->
-  <a href="https://fctop.org/dmutiroi7" class="slot-card" style="background:var(--bg3);display:flex;align-items:center;justify-content:center;width:140px;min-width:140px;height:140px;border-radius:16px;border:1px solid var(--border2);flex-direction:column;gap:6px">
-    <span style="font-size:30px">🎰</span>
-    <span style="font-size:12px;font-weight:700;color:var(--orange);text-align:center;line-height:1.3">Ещё<br>1000+ игр</span>
+  <a href="https://fctop.org/dmutiroi7" class="slot-card slot-more">
+    <span class="slot-more-ico">🎰</span>
+    <span class="slot-more-txt">Ещё<br>1000+ игр</span>
   </a>
 
 </div>
@@ -824,7 +853,7 @@ img{display:block;max-width:100%}
 
 <!-- ─── SEO / ABOUT БЛОК ─── -->
 <p class="sec">О казино</p>
-<div class="about">
+<div class="about" id="about">
   <div class="about-head">
     <img src="assets/phoenix-icon.webp" alt="Fenix логотип" width="32" height="32">
     <span class="about-hname">Fenix Casino</span>
@@ -849,7 +878,7 @@ img{display:block;max-width:100%}
 <!-- ─── FAQ БЛОК — даёт featured snippets в Google ─── -->
 <section class="faq-section">
   <p class="sec">Частые вопросы</p>
-  <h2 style="padding:0 14px 14px;font-size:20px;font-weight:800;letter-spacing:-.3px">Fenix Casino — вопросы и ответы</h2>
+  <h2 class="sec-h2-lg" id="faq">Fenix Casino — вопросы и ответы</h2>
 
   <div class="faq-list">
 
