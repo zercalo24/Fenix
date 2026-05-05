@@ -6,7 +6,7 @@
 
   <url>
     <loc>https://fenix-slots.ru/</loc>
-    <lastmod>2026-04-26</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
 
@@ -43,4 +43,26 @@
     </image:image>
 
   </url>
+
+  <url>
+    <loc>https://fenix-slots.ru/terms.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://fenix-slots.ru/privacy.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://fenix-slots.ru/responsible.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>
